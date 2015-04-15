@@ -1,0 +1,18 @@
+
+
+
+
+<script>
+    
+    //renders the promotion list by referencing the template id and the html id
+    //for where to place the rendered content. See mallmaverick.js for implementation
+    var pathArray = window.location.pathname.split( '/' );
+    var slug = pathArray[pathArray.length-1];
+    
+    
+    alert(slug);
+    
+    
+    
+    
+</script>
