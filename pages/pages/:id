@@ -10,15 +10,15 @@
         
         
         $.getJSON(pages_json).done(function(data) {
-            mallData = data;
-            sessionStorage.setItem('mallData', JSON.stringify(data));
-            log('done fetching mallData from: '+sessionStorage.MM_URL);
-            callback();
+            var pages_data = JSON.parse(sessionStorage.data);
+            console.log(pages_data);
+            
+            
         });
 		
 		
 		
-		var mallDataJSON = JSON.parse(sessionStorage.mallData);
+		
 
 
 
