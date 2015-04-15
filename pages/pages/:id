@@ -9,9 +9,8 @@
     var pathArray = window.location.pathname.split( '/' );
     var slug = pathArray[pathArray.length-1];
     
-    
-    alert(slug);
-    alert(window.location+".json");
+
+    alert("http://sq1.mallmaverick.com/pages/"+slug+ ".json");
     
 
     
