@@ -9,7 +9,7 @@
         var pages_json = "http://sq1.mallmaverick.com/pages/" + slug + ".json"
         
         
-        $.getJSON(sessionStorage.MM_URL).done(function(data) {
+        $.getJSON(pages_json).done(function(data) {
             mallData = data;
             sessionStorage.setItem('mallData', JSON.stringify(data));
             log('done fetching mallData from: '+sessionStorage.MM_URL);
